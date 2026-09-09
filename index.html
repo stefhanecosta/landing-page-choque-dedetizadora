@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Choque Dedetizadora | Controle de Pragas</title>
+
+    <meta
+        name="description"
+        content="Choque Dedetizadora - Controle de pragas, dedetização residencial e comercial. Solicite seu orçamento pelo WhatsApp."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script>    
+</head>
+
+<body>
+
+    <header>
+
+        <img src="imagens/logo1.png" class="logo">
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#clientes">Clientes</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+    </header>
+
+    <section id="inicio" class="hero">
+
+        <div class="hero-text">
+
+            <h1>
+                Controle de pragas com a confiança da
+                <span>Choque Dedetizadora</span>
+            </h1>
+
+            <p>
+                Proteja sua casa ou empresa contra pragas com a Choque Dedetizadora.
+            </p>
+
+        </div>
+
+        <div class="formulario-lateral" id="formularioLateral">
+
+                <h2>
+                    Fale com nossa equipe
+                </h2>
+
+                <p>
+                    Atendimento rápido para sua casa ou empresa
+                </p>
+
+                <form id="formularioOrcamento">
+
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            placeholder="Nome"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone">Telefone</label>
+                        <input
+                            type="tel"
+                            id="telefone"
+                            placeholder="Telefone"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Email"
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="tipoLocal">Tipo de local</label>
+
+                        <select id="tipoLocal">
+                            <option value="" disabled selected>Selecione</option>
+                            <option value="Residência">Residência</option>
+                            <option value="Comércio">Comércio</option>
+                            <option value="Empresa">Empresa</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="problema">Tipo de problema</label>
+
+                        <select id="problema">
+                            <option value="" disabled selected>Selecione</option>
+                            <option value="Baratas">Baratas</option>
+                            <option value="Formigas">Formigas</option>
+                            <option value="Roedores">Roedores</option>
+                            <option value="Cupins">Cupins</option>
+                            <option value="Reservatorios">Limpeza de Reservatorios</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="urgencia">tipo de atendimento</label>
+
+                        <select id="urgencia">
+                            <option value="" disabled selected>Selecione</option>
+                            <option value="Emergencial">Emergencial</option>
+                            <option value="Normal">Normal</option>
+                            <option value="Agendado">Agendado</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-formulario">
+                        Quero um orçamento!
+                    </button>
+
+                </form>
+
+        </div>
+
+    </section>
+
+    <section id="servicos">
+
+        <h2>Conheça nossos serviços</h2>
+
+        <div class="cards-wrapper">
+            <div class="cards">
+                <div class="card">
+                    <img src="imagens/dedetizacao.jpeg" alt="dedetização" class="servicos">
+                    <h3>Dedetização</h3>
+                    <p>
+                        Controle completo contra baratas, formigas, moscas, mosquitos, aranhas e outros insetos. O tratamento identifica os focos de infestação e aplica o método mais adequado para eliminar as pragas, 
+                        garantindo um ambiente mais seguro e saudável para sua família ou negócio.
+                    </p>
+
+                    <a href="#" class="link-seta">Solicitar orçamento</a>
+
+                </div>
+
+                <div class="card">
+                    <img src="imagens/desratizacao.jpeg" alt="dedetização" class="servicos">
+                    <h3>Desratização</h3>
+                    <p>
+                        Combate eficaz a ratos e camundongos por meio de instalação de iscas e armadilhas, 
+                        além da vedação dos pontos de entrada utilizados pelos roedores. 
+                        O serviço elimina a infestação atual e reduz as chances de reincidência, protegendo a estrutura do imóvel e a saúde dos moradores..
+                    </p>
+
+                    <a href="#" class="link-seta">Solicitar orçamento</a>
+
+                </div>
+
+                <div class="card">
+                    <img src="imagens/Descupinizacao.jpg" alt="dedetização" class="servicos">
+                    <h3>Descupinização</h3>
+                    <p>
+                        Tratamento específico contra cupins, praga comum em imóveis com estrutura de madeira. 
+                        O serviço localiza os ninhos e trilhas de infestação, 
+                        aplicando o método correto para eliminar a colônia e prevenir novos ataques, 
+                        protegendo a integridade da construção.
+                    </p>
+                    
+                    <a href="#" class="link-seta">Solicitar orçamento</a>
+
+                </div>
+
+                <div class="card">
+                    <img src="imagens/limpeza.jpeg" alt="dedetização" class="servicos">
+                    <h3>Limpeza de reservatórios</h3>
+                    <p>
+                        Limpeza e higienização de reservatórios, removendo sedimentos e 
+                        contaminantes que comprometem a qualidade da água, 
+                        seguindo as normas sanitárias exigidas.
+                    </p>
+                    
+                    <a href="#" class="link-seta">Solicitar orçamento</a>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="imagens/sanitizacao.jpeg" alt="dedetização" class="servicos">
+                    <h3>Sanitização e Higienização</h3>
+                    <p>
+                        Limpeza profissional de ambientes contra vírus, 
+                        bactérias e fungos, proporcionando um espaço mais seguro e 
+                        livre de contaminantes para residências, empresas e áreas de grande circulação.
+                    </p>
+                    
+                    <a href="#" class="link-seta">Solicitar orçamento</a>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="imagens/certificado.png" alt="dedetização" class="servicos">
+                    <h3>Laudos Técnicos e Certificados</h3>
+                    <p>
+                        Emissão de laudos técnicos e certificados de dedetização, 
+                        documentos exigidos pela vigilância sanitária e por condomínios, 
+                        restaurantes e outros estabelecimentos para comprovar a realização do serviço.
+                    </p>
+                    
+                    <a href="#" class="link-seta">Solicitar orçamento</a>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="imagens/inspecao.jpeg" alt="dedetização" class="servicos">
+                    <h3>Consultoria e Inspeção</h3>
+                    <p>
+                        Avaliação técnica do imóvel para identificar focos de infestação e riscos de pragas, 
+                        orientando o melhor plano de ação para prevenção e controle.
+                    </p>
+                    
+                    <a href="#" class="link-seta">Solicitar orçamento</a>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="imagens/tratamento.jpeg" alt="dedetização" class="servicos">
+                    <h3>Tratamentos Preventivos</h3>
+                    <p>
+                        Contratos de manutenção periódica que mantêm o ambiente protegido continuamente, 
+                        evitando o retorno de infestações e garantindo tranquilidade a longo prazo.
+                    </p>
+                    
+                    <a href="#" class="link-seta">Solicitar orçamento</a>
+                    
+                </div>
+
+            </div>
+        </div>    
+    </section>    
+
+    <section id="sobre" class="sobre">
+    
+        <h2>Por que escolher a <span class="destaque">Choque</span>?</h2>
+        <div class="linha-destaque"></div>
+
+        <p>
+            Trabalhamos oferecendo soluções eficientes para controle de pragas,
+            com atendimento rápido e foco na segurança dos nossos clientes.
+        </p>
+        
+        <div class="cards-wrapper">
+            <div class="beneficios">
+                <div class="beneficio-card">
+                    <div class="icone-beneficio"><i data-lucide="zap"></i></div>
+                    <h3>Atendimento rápido</h3>
+                    <p>Retorno ágil desde o primeiro contato até a execução do serviço.</p>
+                </div>
+
+                <div class="beneficio-card">
+                    <div class="icone-beneficio"><i data-lucide="shield-check"></i></div>
+                    <h3>Profissionais preparados</h3>
+                    <p>Equipe treinada e capacitada para lidar com qualquer tipo de infestação.</p>
+                </div>
+
+                <div class="beneficio-card">
+                    <div class="icone-beneficio"><i data-lucide="target"></i></div>
+                    <h3>Soluções personalizadas</h3>
+                    <p>Cada tratamento é pensado de acordo com a necessidade do local.</p>
+                </div>
+
+                <div class="beneficio-card">
+                    <div class="icone-beneficio"><i data-lucide="home"></i></div>
+                    <h3>Residencial e comercial</h3>
+                    <p>Atendemos desde residências até empresas, indústrias e condomínios.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+        <section id="processo" class="processo">
+
+        <h2>Simples, rápido e eficiente</h2>
+        <p class="subtitulo-processo">Veja como é fácil proteger sua casa ou empresa com a Choque Dedetizadora.</p>
+
+        <div class="cards-processo">
+
+            <div class="card-processo">
+                <div class="numero">1</div>
+                <h3>Solicite o orçamento</h3>
+                <p>
+                    Preencha o formulário ou entre em contato pelo WhatsApp. 
+                    Você recebe um retorno rápido da nossa equipe.
+                </p>
+            </div>
+
+            <div class="card-processo">
+                <div class="numero">2</div>
+                <h3>Vistoria no local</h3>
+                <p>
+                    Realizamos uma inspeção para identificar o tipo de praga, 
+                    o nível de infestação e o melhor tratamento a ser aplicado, sem custo.
+                </p>
+            </div>
+
+            <div class="card-processo">
+                <div class="numero">3</div>
+                <h3>Aplicação do tratamento</h3>
+                <p>
+                    Nossa equipe aplica o produto adequado com segurança, 
+                    seguindo todas as normas técnicas e sanitárias.
+                </p>
+            </div>
+
+            <div class="card-processo">
+                <div class="numero">4</div>
+                <h3>Certificado, laudo e garantia</h3>
+                <p>
+                    Entregamos o certicado e, quando aplicável, o laudo técnico exigido. Garantimos 
+                    o resultado, com suporte caso seja necessário retorno.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+    
+    </section>
+
+        <section id="clientes" class="clientes-section">
+
+        <h2>Alguns dos nossos clientes</h2>
+
+        <div class="clientes">
+
+            <img src="imagens/FERRONORTE.png" alt="Ferronorte">
+            <img src="imagens/LOCOMOPIZZA.png" alt="Locomopizza">
+            <img src="imagens/MAHOGANY.png" alt="Mahogany">
+            <img src="imagens/MIXPINHEIRO.png" alt="MixPinheiro">
+            <img src="imagens/ROQUE.png" alt="Roque">
+            
+
+        </div>
+
+    </section>
+
+    <section class="cta">
+        <h2>
+            Está com problemas com pragas?
+        </h2>
+        <p>
+            Fale agora com nossa equipe.
+        </p>
+        <a
+            class="btn"
+            href="https://wa.me/559887042702"
+            target="_blank"
+        >
+            Chamar no WhatsApp
+        </a>
+
+    </section>
+
+<footer id="contato">
+
+    <div class="footer-conteudo">
+
+        <div class="footer-coluna footer-sobre">
+            <div class="footer-logo">
+                <img src="imagens/logo2.png" alt="Choque Dedetizadora" class="footer-logo-img">
+                <div>
+                    <h3>CHOQUE DEDETIZADORA</h3>
+                    <span class="footer-subtitulo">CONTROLE DE PRAGAS</span>
+                </div>
+            </div>
+            <p>
+                Empresa especializada em dedetização, desratização e limpeza
+                de reservatórios de água, com atendimento residencial e
+                empresarial em São Luís e região.
+            </p>
+            <div class="footer-redes">
+                <a href="https://www.instagram.com/choquededetizacao?igsi=Y3V4aThyM3F3ZThn" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/559887042702" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-coluna">
+            <h4>LINKS RÁPIDOS</h4>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#parceiros">Parceiros</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#orcamento">Solicitar orçamento</a>
+        </div>
+
+        <div class="footer-coluna">
+            <h4>SERVIÇOS</h4>
+            <p>Dedetização</p>
+            <p>Desratização</p>
+            <p>Limpeza de Reservatórios</p>
+            <p>Controle de pragas urbanas</p>
+        </div>
+
+        <div class="footer-coluna">
+            <h4>CONTATO</h4>
+            <a href="tel:5598987042702"><i class="fa-solid fa-phone"></i> (98) 98704-2702</a>
+            <a href="https://wa.me/559887042702" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp (98) 98704-2702</a>
+            <a href="mailto:choquededetizadora@gmail.com.br"><i class="fa-solid fa-envelope"></i>choquededetizadora@gmail.com</a>
+            <span><i class="fa-solid fa-location-dot"></i> São Luís - MA</span>
+            <span><i class="fa-solid fa-clock"></i> Segunda a sexta, das 08h às 18h</span>
+            <span><i class="fa-solid fa-clock"></i> Sábado, das 08h às 12h</span>
+        </div>
+
+    </div>
+
+    <div class="footer-inferior">
+        <p>
+            Atendemos São Luís - MA e região: Centro, João Paulo, Cohama, Turu, Renascença,
+            Calhau, Cohatrac, Angelim, Olho d'Água, Vinhais, São Cristóvão.
+        </p>
+        <p>© 2026 Choque Dedetizadora. Todos os direitos reservados.</p>
+
+        <a class="footer-whatsapp-btn" href="https://wa.me/559887042702" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+        </a>
+    </div>
+
+</footer>
+
+<a
+    class="whatsapp"
+    href="https://wa.me/559887042702"
+    target="_blank"
+>
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+    <script src="script.js"></script>
+
+</body>
+
+<script>
+    lucide.createIcons();
+</script>
+
+</html>
