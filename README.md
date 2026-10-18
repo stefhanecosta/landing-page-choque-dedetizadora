@@ -4,7 +4,7 @@ Site institucional da **Choque Dedetizadora**, empresa especializada em controle
 
 ## Acesse o site
 
-[choque-dedetizadora.vercel.app](https://choque-dedetizadora.vercel.app) <!-- ajuste para sua URL real -->
+[choque-dedetizadora.vercel.app](https://choquededetizadora.vercel.app/) 
 
 ## Sobre o projeto
 
